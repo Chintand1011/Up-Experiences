@@ -9,7 +9,7 @@ function WhoWeAre() {
     <>
       <div
         id="who-we-are"
-        className="grid grid-cols-1 md:grid-cols-2 items-stretch p-4 md:p-12 lg:gap-[60px] lg:p-[60px] w-full translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:1000ms] scroll-mt-20"
+        className="grid grid-cols-1 lg:grid-cols-2 items-stretch p-4 md:p-12 lg:gap-[60px] lg:p-[60px] w-full translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:1000ms] scroll-mt-20"
       >
         <div>
           <img

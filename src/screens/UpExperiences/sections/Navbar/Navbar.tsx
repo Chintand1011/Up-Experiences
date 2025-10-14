@@ -59,11 +59,11 @@ function Navbar() {
 
   const langLabel = (lang: string) => (lang === "pt" ? "PT" : "EN");
   const navBaseClasses =
-    "relative max-w-[1320px] mx-auto mt-4 md:mt-6 rounded-[12px] h-16 z-50 flex items-center justify-between w-full px-4 md:px-5 py-3 transition-all duration-300";
+    "relative max-w-auto mx-auto mt-4 md:mt-6 rounded-[12px] h-16 z-50 flex items-center justify-between w-full px-4 md:px-5 py-3 transition-all duration-300";
   const scrolledClasses = "backdrop-blur-sm bg-white/60 shadow-mizko-s";
   const notScrolledClasses = "bg-white";
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 px-4 sm:px-[60px]">
+    <header className="fixed top-0 left-0 right-0 z-50 px-4 md:px-[60px]">
       <nav
         className={`${navBaseClasses} ${
           isScrolled ? scrolledClasses : notScrolledClasses

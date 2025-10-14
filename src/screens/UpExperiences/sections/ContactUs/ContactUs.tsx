@@ -12,7 +12,7 @@ function ContactUs() {
   return (
     <>
       <div className="grid grid-cols-1 lg:grid-cols-2 items-stretch gap-5 px-4 md:px-12 lg:px-[60px] w-full translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:2000ms]">
-        <div className="pt-[118.5px] pb-[78.5px]">
+        <div className="lg:pt-[118.5px] pb-[78.5px]">
           <Card className="flex flex-col w-full items-start gap-8 md:gap-10 p-6 bg-[#fbfbfb] rounded-[20px] shadow-[0px_2px_6px_#1018280f] border-0">
             <CardContent className="p-0 w-full">
               <div className="items-center gap-4 w-full flex flex-col">

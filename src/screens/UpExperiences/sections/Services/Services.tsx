@@ -37,7 +37,7 @@ function Services() {
     <>
       <div
         id="services"
-        className="flex flex-col items-center gap-8 md:gap-[52px] px-4 md:px-12 lg:px-[60px] py-10 md:py-20 w-full translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:1200ms] scroll-mt-20"
+        className="flex flex-col items-center gap-8 md:gap-[52px] px-4 md:px-12 lg:px-[60px] py-4 md:py-5 lg:py-20 w-full translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:1200ms] scroll-mt-20"
       >
         <div className="flex flex-col w-full md:w-[650px] items-center gap-1">
           <div className="inline-flex items-center gap-3">
@@ -53,13 +53,13 @@ function Services() {
           src={Icons.LAYER21}
         />
 
-        <div className="flex flex-wrap w-full max-w-[1319px] items-start gap-4 md:gap-[19px] justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full items-start gap-4 md:gap-[19px]">
           {services.map((service, index) => (
             <Card
               key={index}
-              className="w-full sm:w-[calc(50%-8px)] lg:w-[calc(33.333%-13px)] min-h-[180px] md:min-h-[204px] bg-[#fbfbfb] rounded-xl border-0"
+              className="w-full bg-[#fbfbfb] rounded-xl border-0"
             >
-              <CardContent className="flex flex-col items-center gap-4 md:gap-6 p-6 md:pt-9 md:px-5">
+              <CardContent className="flex flex-col items-center gap-4 md:gap-6 px-5 py-9">
                 <div className="inline-flex items-center gap-2.5 p-3 bg-[#7c0d48] rounded-lg">
                   <div className="w-8 h-8 flex items-center justify-center">
                     <img

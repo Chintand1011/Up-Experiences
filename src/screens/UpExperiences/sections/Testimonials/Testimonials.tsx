@@ -58,7 +58,7 @@ function Testimonials() {
         </div>
       </div>
 
-      <div className="flex flex-wrap w-full max-w-[1321px] items-start gap-4 md:gap-5 justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full  items-start gap-4 md:gap-5 justify-center">
         {testimonials.map((item, index) => {
           const cardHeight = "h-[362px] md:h-[392px]";
 
@@ -66,7 +66,7 @@ function Testimonials() {
             return (
               <div
                 key={index}
-                className={`relative w-full sm:w-[calc(50%-8px)] lg:w-[calc(33.333%-14px)] ${cardHeight} rounded-[20px] overflow-hidden`}
+                className={`relative w-full ${cardHeight} rounded-[20px] overflow-hidden`}
               >
                 <img
                   className={`w-full ${cardHeight} object-cover rounded-[20px]`}
@@ -80,7 +80,7 @@ function Testimonials() {
           return (
             <Card
               key={index}
-              className={`w-full sm:w-[calc(50%-8px)] lg:w-[calc(33.333%-14px)] ${cardHeight} bg-white rounded-[20px] border border-solid border-neutral-100 shadow-[0px_2px_6px_#1018280f] relative`}
+              className={`w-full ${cardHeight} bg-white rounded-[20px] border border-solid border-neutral-100 shadow-[0px_2px_6px_#1018280f] relative`}
             >
               <img
                 className="w-9 h-9 absolute top-[18px] right-[18px]"

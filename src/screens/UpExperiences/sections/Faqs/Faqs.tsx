@@ -1,6 +1,5 @@
-import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@radix-ui/react-accordion";
-import React from "react";
 import { useTranslation } from "react-i18next";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "../../../../components/ui/accordion";
 
 export default function Faqs() {
   const { t } = useTranslation();

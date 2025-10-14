@@ -16,9 +16,9 @@ function WhyDoha() {
     <>
       <div
         id="why-doha"
-        className="grid grid-cols-1 md:grid-cols-2 items-stretch gap-6 md:gap-10 px-4 md:px-12 lg:px-[60px] py-10 md:py-20 w-full bg-[#f2f2f2] translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:800ms] scroll-mt-20"
+        className="grid grid-cols-1 lg:grid-cols-2 items-stretch gap-6 md:gap-10 px-4 md:px-12 lg:px-[60px] py-1 md:py-20 w-full bg-[#f2f2f2] translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:800ms] scroll-mt-20"
       >
-        <div className="flex flex-col w-full items-start gap-6 md:gap-8 py-[91.5px]">
+        <div className="flex flex-col w-full items-start gap-6 md:gap-8 py-4 px-1 lg:py-[91.5px]">
           <div className="flex flex-col items-start gap-4 w-full">
             <div className="flex items-start gap-1 w-full">
               <h2 className="flex items-center justify-center w-fit font-headings-desktop-h1-bold font-[number:var(--headings-desktop-h1-bold-font-weight)] text-black text-[28px] md:text-[32px] lg:text-[length:var(--headings-desktop-h1-bold-font-size)] tracking-[var(--headings-desktop-h1-bold-letter-spacing)] leading-tight md:leading-[var(--headings-desktop-h1-bold-line-height)] whitespace-nowrap [font-style:var(--headings-desktop-h1-bold-font-style)]">

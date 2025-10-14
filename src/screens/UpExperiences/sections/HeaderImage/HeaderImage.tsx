@@ -21,7 +21,7 @@ export const FAQSection = (): JSX.Element => {
       />
 
       <img
-        className="absolute top-[300px] md:top-[400px] left-1/2 -translate-x-1/2 w-full h-[400px] md:h-[698px] object-cover"
+        className="absolute top-[300px] md:top-[400px] left-1/2 -translate-x-1/2 w-full h-[400px] md:h-[698px] object-cover md:object-none"
         alt={t("faq.groupSelfieAlt")}
         src={Images.HOMEBG}
       />

@@ -178,7 +178,8 @@ function Footer() {
                   <div className="flex flex-col items-start justify-center gap-2 md:gap-1.5 w-full">
                     <div className="flex flex-col items-start gap-2 md:gap-3 w-full">
                       <a
-                        href="#"
+                        href="https://upexperiences.com.br/"
+                        target="_blank"
                         className="inline-flex items-center gap-3 hover:text-neutral-300 transition-colors"
                       >
                         <img
@@ -212,11 +213,14 @@ function Footer() {
                                 src={Icons.BRAZILFLAG}
                               />
 
-                              <div className="inline-flex gap-2 items-center">
+                              <a
+                                href="tel:+5521987838986"
+                                className="inline-flex gap-2 items-center"
+                              >
                                 <span className="w-fit [font-family:'Orkney-Regular',Helvetica] font-normal text-neutral-200 text-base leading-6 whitespace-nowrap tracking-[0]">
                                   +5521 98783 8986
                                 </span>
-                              </div>
+                              </a>
                             </div>
 
                             <div className="inline-flex items-start gap-2 w-full sm:w-auto">
@@ -226,11 +230,14 @@ function Footer() {
                                 src={Icons.UAEFLAG}
                               />
 
-                              <div className="inline-flex gap-2 items-center">
+                              <a
+                                href="tel:+971547881002"
+                                className="inline-flex gap-2 items-center"
+                              >
                                 <span className="w-fit [font-family:'Orkney-Regular',Helvetica] font-normal text-neutral-200 text-base leading-6 whitespace-nowrap tracking-[0]">
                                   +971 54 788 1002
                                 </span>
-                              </div>
+                              </a>
                             </div>
                           </div>
                         </div>

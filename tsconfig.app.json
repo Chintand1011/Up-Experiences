@@ -18,5 +18,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src", "public/icons/StarIcon.tsx"]
+  "include": ["src", "public/Icons/StarIcon.tsx"]
 }

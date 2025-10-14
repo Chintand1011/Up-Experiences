@@ -94,8 +94,8 @@ export default function Founder() {
           ))}
         </div>
 
-        <div className="block lg:hidden pt-2 px-2">
-          <div className="relative">
+        <div className="block lg:hidden">
+          <div className="relative pt-2 px-2">
             <img
               src={Images.FounderLTOP}
               alt="Founder Left Top"
@@ -119,7 +119,7 @@ export default function Founder() {
             {t("founder.about_heading")}
           </h3>
 
-          <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="mt-6 grid grid-cols-1 lg:grid-cols-2 gap-4 pt-2 px-2">
             <ul className="list-decimal pl-6">
               {founderFacts
                 .filter((f) => f.text !== t("founder.about_heading"))
