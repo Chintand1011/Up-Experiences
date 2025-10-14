@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Icons, Images } from "../../../../lib/Constant";
-import StarIcon from "../../../../../public/Icons/StarIcon";
+import StarIcon from "../../../../../public/icons/StarIcon";
 import { Card, CardContent } from "../../../../components/ui/card";
 
 function Testimonials() {
