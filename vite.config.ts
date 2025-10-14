@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) => ({
     port: 5173,
   },
   publicDir: "./public",
-  base: "./",
+  base: "/Up-Experiences/",
   css: {
     postcss: {
       plugins: [tailwind()],
