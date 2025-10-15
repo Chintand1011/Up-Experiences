@@ -42,9 +42,9 @@ function WhyDoha() {
             ))}
           </div>
         </div>
-        <div>
+        <div className="flex items-center">
           <img
-            className="w-full md:w-[500px] lg:w-[690px] h-auto md:h-[400px] lg:h-[595px] md:mb-[-56.00px]"
+            className="w-full h-auto"
             alt="Group"
             src={Images.WHYDOHABACK}
           />

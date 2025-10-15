@@ -57,7 +57,7 @@ function Services() {
           {services.map((service, index) => (
             <Card
               key={index}
-              className="w-full bg-[#fbfbfb] rounded-xl border-0"
+              className="w-full bg-[#fbfbfb] rounded-xl border-0 lg:h-52"
             >
               <CardContent className="flex flex-col items-center gap-4 md:gap-6 px-5 py-9">
                 <div className="inline-flex items-center gap-2.5 p-3 bg-[#7c0d48] rounded-lg">

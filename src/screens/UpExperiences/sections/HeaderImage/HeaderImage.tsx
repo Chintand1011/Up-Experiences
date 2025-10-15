@@ -21,12 +21,12 @@ export const FAQSection = (): JSX.Element => {
       />
 
       <img
-        className="absolute top-[300px] md:top-[400px] left-1/2 -translate-x-1/2 w-full h-[400px] md:h-[698px] object-cover md:object-none"
+        className="absolute top-[300px] md:top-[400px] left-1/2 -translate-x-1/2 w-full h-[400px] md:h-[698px] object-cover object-top"
         alt={t("faq.groupSelfieAlt")}
         src={Images.HOMEBG}
       />
 
-      <div className="relative z-0 flex flex-col items-center gap-5 w-full max-w-[863px] mx-auto mt-[99px] md:mt-[126px] px-4 md:px-0 translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:200ms]">
+      <div className="relative z-0 flex flex-col items-center gap-5 w-full max-w-[863px] mx-auto mt-[99px] md:mt-[126px] px-4 md:px-3 translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:200ms]">
         <div className="flex flex-col items-end gap-2 w-full">
           <h1 className="w-full [font-family:'Orkney-Bold',Helvetica] font-bold text-[28px] md:text-[42px] lg:text-[52px] text-center tracking-[0] leading-tight md:leading-[normal] translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms]">
             <span className="text-black">{t("faq.heading.part1")}</span>

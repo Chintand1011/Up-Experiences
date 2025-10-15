@@ -19,7 +19,7 @@ function WhoWeAre() {
           />
         </div>
         <div className="gap-8 md:gap-[60px] w-full py-[79px]">
-          <div className="w-full md:w-[500px] lg:w-[556px] items-start gap-6 md:gap-8 flex flex-col">
+          <div className="w-full md:w-full lg:w-[556px] items-start gap-6 md:gap-8 flex flex-col">
             <div className="flex flex-col items-start gap-4 w-full">
               <div className="flex items-start gap-1 w-full">
                 <h2 className="flex items-center justify-center w-fit font-headings-desktop-h1-bold font-[number:var(--headings-desktop-h1-bold-font-weight)] text-black text-[length:var(--headings-desktop-h1-bold-font-size)] tracking-[var(--headings-desktop-h1-bold-letter-spacing)] leading-[var(--headings-desktop-h1-bold-line-height)] whitespace-nowrap [font-style:var(--headings-desktop-h1-bold-font-style)]">

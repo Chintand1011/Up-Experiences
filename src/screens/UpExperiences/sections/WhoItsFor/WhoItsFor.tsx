@@ -62,8 +62,8 @@ function WhoItsFor() {
         </div>
 
         {/* Student Features */}
-        <div className="grid grid-cols-1 md:grid-cols-2 items-stretch gap-8 md:gap-[60px] w-full translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms]">
-          <div className="flex flex-col items-start justify-center gap-6 md:gap-8 flex-1 order-2 md:order-1">
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 items-stretch gap-8 md:gap-[60px] w-full translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms]">
+          <div className="flex flex-col items-start justify-center gap-6 md:gap-8 flex-1 order-2 lg:order-1">
             <div className="flex flex-col items-start gap-4 w-full">
               <p className="w-full font-headings-mobile-h4-medium font-[number:var(--headings-mobile-h4-medium-font-weight)] text-[#7c0d48] text-[18px] md:text-[20px] lg:text-[length:var(--headings-mobile-h4-medium-font-size)] tracking-[var(--headings-mobile-h4-medium-letter-spacing)] leading-relaxed md:leading-[var(--headings-mobile-h4-medium-line-height)] [font-style:var(--headings-mobile-h4-medium-font-style)]">
                 {t("whoItsFor.studentIntro")}
@@ -87,14 +87,14 @@ function WhoItsFor() {
           </div>
 
           <img
-            className="w-full h-[300px] md:h-[400px] lg:h-[552px] object-cover rounded-[20px] order-1 md:order-2"
+            className="w-full h-[300px] md:h-[400px] lg:h-[552px] object-cover rounded-[20px] order-1"
             alt="Rectangle"
             src={Images.STOPOVER}
           />
         </div>
 
         {/* Traveler Features */}
-        <div className="grid grid-cols-1 md:grid-cols-2 items-stretch gap-8 md:gap-[60px] w-full translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:600ms]">
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 items-stretch gap-8 md:gap-[60px] w-full translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:600ms]">
           <img
             className="w-full h-[300px] md:h-[400px] lg:h-[552px] object-cover rounded-[20px]"
             alt="Rectangle"
