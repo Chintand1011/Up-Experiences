@@ -52,7 +52,9 @@ function ContactUs() {
                           />
                           <div className="inline-flex items-center justify-center gap-2.5 pt-0.5 pb-0 px-0">
                             <p className="w-fit font-headings-mobile-h6-regular font-[number:var(--headings-mobile-h6-regular-font-weight)] text-neutral-600 text-[length:var(--headings-mobile-h6-regular-font-size)] tracking-[var(--headings-mobile-h6-regular-letter-spacing)] leading-[var(--headings-mobile-h6-regular-line-height)] [font-style:var(--headings-mobile-h6-regular-font-style)]">
-                              {t("contactus.phone_brazil")}
+                              <a href="tel:+5521987838986">
+                                {t("contactus.phone_brazil")}
+                              </a>
                             </p>
                           </div>
                         </div>
@@ -65,7 +67,9 @@ function ContactUs() {
                           />
                           <div className="inline-flex items-center justify-center gap-2.5 pt-0.5 pb-0 px-0">
                             <p className="w-fit font-headings-mobile-h6-regular font-[number:var(--headings-mobile-h6-regular-font-weight)] text-neutral-600 text-[length:var(--headings-mobile-h6-regular-font-size)] tracking-[var(--headings-mobile-h6-regular-letter-spacing)] leading-[var(--headings-mobile-h6-regular-line-height)] [font-style:var(--headings-mobile-h6-regular-font-style)]">
-                              {t("contactus.phone_uae")}
+                              <a href="tel:+971547881002">
+                                {t("contactus.phone_uae")}
+                              </a>
                             </p>
                           </div>
                         </div>
@@ -94,7 +98,12 @@ function ContactUs() {
 
                         <div className="flex items-center gap-3 w-full">
                           <p className="flex-1 shrink-0 truncate font-headings-mobile-h6-regular font-[number:var(--headings-mobile-h6-regular-font-weight)] text-neutral-500 text-[length:var(--headings-mobile-h6-regular-font-size)] tracking-[var(--headings-mobile-h6-regular-letter-spacing)] leading-[var(--headings-mobile-h6-regular-line-height)] [font-style:var(--headings-mobile-h6-regular-font-style)]">
-                            {t("contactus.website_url")}
+                            <a
+                              href="https://upexperiences.com.br/"
+                              target="_blank"
+                            >
+                              {t("contactus.website_url")}
+                            </a>
                           </p>
                         </div>
                       </div>
@@ -116,7 +125,13 @@ function ContactUs() {
 
                         <div className="flex items-center gap-3 w-full">
                           <p className="flex-1 font-headings-mobile-h6-regular font-[number:var(--headings-mobile-h6-regular-font-weight)] text-neutral-500 text-[length:var(--headings-mobile-h6-regular-font-size)] tracking-[var(--headings-mobile-h6-regular-letter-spacing)] leading-[var(--headings-mobile-h6-regular-line-height)] [font-style:var(--headings-mobile-h6-regular-font-style)]">
-                            {t("contactus.instagram_handle")}
+                            <a
+                              href="https://www.instagram.com/up.experiences"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              {t("contactus.instagram_handle")}
+                            </a>
                           </p>
                         </div>
                       </div>
@@ -157,7 +172,10 @@ function ContactUs() {
         </div>
       </div>
 
-      <ContactModal open={isContactModalOpen} onOpenChange={setIsContactModalOpen} />
+      <ContactModal
+        open={isContactModalOpen}
+        onOpenChange={setIsContactModalOpen}
+      />
     </>
   );
 }
