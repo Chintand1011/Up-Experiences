@@ -6,7 +6,7 @@ import { Button } from "../../../../components/ui/button";
 import { sendEmail } from "../../../../services/Email";
 
 const quickLinks = [
-  ["whoItsFor","whyDoha", "whoWeAre"],
+  ["whoItsFor", "whyDoha", "whoWeAre"],
   ["services", "testimonials", "faqs"],
 ];
 
