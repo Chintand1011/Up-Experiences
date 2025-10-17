@@ -17,6 +17,7 @@ export const Icons = {
     GLOBE: "./icons/Globe.svg",
     INSTAGRAMLOGO: "./icons/InstagramLogo.svg",
     TESTMONIALLOGO: "./icons/TestMonialLogo.svg",
+    FAVICON: "./icons/favicon.ico",
 }
 
 
@@ -44,5 +45,4 @@ export const Images = {
     FounderRBOTTOM: "./images/FounderRBOTTOM.png",
     FounderLBOTTOM: "./images/FounderLBOTTOM.png",
     FounderCENTRE: "./images/FounderCENTRE.png",
-    FAVICON: "./images/favicon.png",
 }
