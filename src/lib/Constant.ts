@@ -44,4 +44,5 @@ export const Images = {
     FounderRBOTTOM: "./images/FounderRBOTTOM.png",
     FounderLBOTTOM: "./images/FounderLBOTTOM.png",
     FounderCENTRE: "./images/FounderCENTRE.png",
+    FAVICON: "./images/favicon.png",
 }
